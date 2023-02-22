@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form validation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="full-screen-container">
+    <div class="login-container">
+      <h1 class="login-title">Welcome</h1>
+      <form class="form">
+        <div class="input-group ">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <span class="msg"></span>
+          </div>
+        <div class="input-group ">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+          <span class="msg"></span>
+        </div>
+
+        <div class="input-group ">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
+          <span class="msg"></span>
+        </div>
+        
+        <div class="input-group ">
+            <label for="password2"> Re-enter Password</label>
+            <input type="password" name="password" id="password2">
+            <span class="msg"></span>
+          </div>
+
+        <button type="submit" class="sign-up-button">Sign up</button>
+      </form>
+    </div>
+  </div>
+  <script src="javscript form.js"></script>
+</body>
+</html>
